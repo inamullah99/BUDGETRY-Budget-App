@@ -1,0 +1,44 @@
+:root {
+    --col1: #132c33;
+    --col2: #a5e1ad;
+    --col3: #51c4d3;
+}
+
+body {
+    color: #d8e3e7;
+    background-color: var(--col2);
+}
+
+.bar {
+    background-color: var(--col1);
+    border-radius: 20px;
+    margin: 10px 0px;
+    padding: 15px;
+}
+
+.blue {
+    color: var(--col3);
+}
+.dark {
+    color: var(--col1);
+}
+.btn {
+    background-color: var(--col3);
+    color: white;
+    display: block;
+    margin: 10px auto;
+} 
+.red {
+    color: #ff4141;
+}
+.green {
+    color: #41ff5a;
+}
+#budget, #month, .inp {
+    max-width: 70%;
+    margin: 20px auto;
+}
+
+.right-side-bar {
+    min-height: 96%;
+}
